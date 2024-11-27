@@ -12,4 +12,5 @@ module "cart" {
   zone_name = var.zone_name
   app_alb_listener_arn = data.aws_ssm_parameter.app_alb_listener_arn.value
   rule_priority = 40
+  #app_version = "1.0.0"
 }
